@@ -29,9 +29,10 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 - [GitHub](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Postman](https://www.postman.com/)
+- [Git Bash](https://git-scm.com/downloads)
 
 #### Prerequisites 
-[Node.js](https://nodejs.org/en/) and [Postman](https://www.postman.com/) must already be installed as well as having a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
+[Node.js](https://nodejs.org/en/), [Postman](https://www.postman.com/), and [Git Bash](https://git-scm.com/downloads) must already be installed as well as having a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
 ### 1. Create a BigCommerce account
 
@@ -119,8 +120,10 @@ We can now begin working on our own custom website. First, we will need to get t
 ```
 Once the file is created, in the terminal run the following command:
 ```
-<b>npm install</b>
+npm install
 ```
-This will add all the dependencies listed above needed to run our application successfully in the server.
+This will download and install all the dependencies listed above needed to run our application successfully in the server.
+
+
 
 
