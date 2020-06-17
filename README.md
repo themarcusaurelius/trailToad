@@ -28,9 +28,10 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 - [React HTML Parser](https://www.npmjs.com/package/react-html-parser)
 - [GitHub](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Postman](https://www.postman.com/)
 
 #### Prerequisites 
-[Node.js](https://nodejs.org/en/) must already be installed as well as a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
+[Node.js](https://nodejs.org/en/) and [Postman](https://www.postman.com/) must already be installed as well as having a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
 ### 1. Create a BigCommerce account
 
@@ -59,3 +60,25 @@ Now we need to generate our custom API credentials to allow us to interact with 
 <p align="center">
     <img src="https://imgur.com/o3aBXL5.png">
 </p>
+
+### 4. Check that the API is working.
+
+Check that the API is working. Will be using [Postman](https://www.postman.com/) for this. Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. In Postman, use the <b>API Path</b> from your credentials followed by the path <b>/catalog/products</b>
+
+Ex: https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products
+
+In the <b>Headers</b> section add the following keys with their values from your credentials:
+
+```
+    Key:				    Value:
+	X-Auth-Token			{ Insert CLIENT ID here}
+	X-Auth-Client			{ Insert CLIENT SECRET here}
+
+```
+Press send and you should then see a json file of the products displayed:
+
+<p align="center">
+    <img src="https://imgur.com/bKcjDAx.png">
+</p>
+
+
