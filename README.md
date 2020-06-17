@@ -1,7 +1,7 @@
 ## Deploying your first Fullstack e-commerce site with BigCommerce. 
 
 <p align="center">
-    #### By [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
+    By [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
 </p>
 
 <p align="center">
