@@ -36,7 +36,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 <hr>
 
-### 1. Create a BigCommerce account
+### 1. Create a BigCommerce account.
 
 The first step is creating an account. For this, we will be using the free 15 day trial account. Create your account by going to the following link: 
 
@@ -272,3 +272,58 @@ This should then display the JSON data from BigCommerce:
 <p align="center">
     <img src="https://imgur.com/IBph9qs.png">
 </p>
+
+<br>
+
+### Creating the React front-end.
+
+Now that our Back-end is all set up we can focus on the front-end view of the demo. We will be using <b>React.js</b> for this. To get started with React, in the root directory of the project, run the command in the terminal:
+
+```
+npx create-react-app client
+```
+
+This will create our <b>React.js</b> application in a folder called <b>client</b>. This might take awhile so this would be a good time to take a break. Once everything has been installed, we need to replace the code the newly added <b>client/package.json</b> with the following JSON:
+
+```json
+"name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "concurrently": "^5.0.0",
+    "mdbreact": "^4.27.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-html-parser": "^2.0.2",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+ }
+```
+
+
+
