@@ -8,7 +8,12 @@
 
 >BigCommerce also provides a powerful API that is an incredible tool to help you jumpstart your own custom online shop quickly. You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life. 
 
->But how does one go about getting everything setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the process from creating your BigCommerce account to deploying your custom online store while learning a few tricks and new technologies along the way. 
+>But how does one go about getting everything setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the process from creating your BigCommerce account to deploying your custom online store while learning a few tricks and new technologies along the way.
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
 
 [Demo](https://trailtoad.herokuapp.com)
 
