@@ -117,6 +117,10 @@ We can now begin working on our own custom website. First, we will need to get t
   }
 }
 ```
-Once the file is created, in the terminal run the command <b>npm install</b>. This will add all the dependencies listed above needed to run our application successfully in the server.
+Once the file is created, in the terminal run the following command:
+```
+<b>npm install</b>
+```
+This will add all the dependencies listed above needed to run our application successfully in the server.
 
 
