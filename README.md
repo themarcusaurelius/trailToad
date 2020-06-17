@@ -32,13 +32,17 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 #### Prerequisites 
 [Node.js](https://nodejs.org/en/) must already be installed as well as a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
-1. Create a BigCommerce account
+### 1. Create a BigCommerce account
 
-The first step is creating your account. For this, we will be using the free 15 day trial account. 
-Create your account by going to the following link: https://www.bigcommerce.com/essentials
-Click on the free trial button and follow the steps. Once your Store is created you will then be redirected to your online dashboard. 
+The first step is creating an account. For this, we will be using the free 15 day trial account. Create your account by going to the following link: 
 
+https://www.bigcommerce.com/essentials 
 
+Click on the free trial button and follow the steps for onboarding. Once your Store is created you will then be redirected to your online dashboard. 
+
+<p align="center">
+    <img src="https://imgur.com/qerhOac.png">
+</p>
 
 
   
