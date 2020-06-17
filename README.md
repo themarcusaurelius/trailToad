@@ -16,18 +16,18 @@ But how does one go about getting everything setup and where to even begin with 
 
 Technologies Used:
 - React.js
-Node.js
-Express.js
-BigCommerce API
-Axios
-Fetch
-React Hooks
-MDB Bootstrap
-Heroku
-Asynchronous Programming
-Environment Variables
-React HTML Parser
-BigCommerce ‘Buy Now’ Button
+- Node.js
+- Express.js
+- BigCommerce API
+- Axios
+- Fetch
+- React Hooks
+- MDB Bootstrap
+- Heroku
+- Asynchronous Programming
+- Environment Variables
+- React HTML Parser
+- BigCommerce ‘Buy Now’ Button
   
 Steps
 Creating account
