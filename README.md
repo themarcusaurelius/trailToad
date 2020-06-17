@@ -32,7 +32,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 - [Postman](https://www.postman.com/)
 - [Git Bash](https://git-scm.com/downloads)
 
-#### Prerequisites 
+#### Prerequisites:
 [Node.js](https://nodejs.org/en/), [Postman](https://www.postman.com/), and [Git Bash](https://git-scm.com/downloads) must already be installed as well as having a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
 <hr>
@@ -276,7 +276,7 @@ This should then display the JSON data from BigCommerce:
 
 <br>
 
-### Creating the React front-end.
+### Creating the React Front-End.
 
 Now that our Back-end is all set up we can focus on the front-end view of the demo. We will be using <b>React.js</b> for this. To get started with React, in the root directory of the project, run the command in the terminal:
 
@@ -326,5 +326,20 @@ This will create our <b>React.js</b> application in a folder called <b>client</b
  }
 ```
 
+In the <b>client</b> folder, run the command 
+
+```
+npm install
+```
+This will install all the dependencies necessary on the Front-End. Once done, you can then run:
+
+```
+npm start
+```
+This will launch the react app.
+
+<p align="center">
+    <img src="https://imgur.com/ZjQhnux.png">
+</p>
 
 
