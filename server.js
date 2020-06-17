@@ -14,14 +14,13 @@ app.use(express.urlencoded({ extended: true }));
 app.use(formData.parse());
  
 //Define Routes
-app.use('/api/data', store);
-
+app.use('/api/data', product);
   
 //Serve Static assets in production
 //Configuration for Express to behave correctly in production environment
 if (process.env.NODE_ENV === 'production') {
     //First - Making sure express will serve production assets - main.js, main.css, etc
-    app.use(express.static('client/build'));
+    app.use(express.static(__dirname, 'build'));
     //Second -Express will serve up the index.html file if it doesn't recognize the route
     app.get('*', (req, res) => {
       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
