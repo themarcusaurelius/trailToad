@@ -4,7 +4,7 @@
     <img src="https://imgur.com/3qS6LaF.png">
 </p>
 
-Today, having a modern and attractive website is at the forefront of any business. BigCommerce is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich engaging content. Owners are now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
+Today, having a modern and attractive website is at the forefront of any business. BigCommerce is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With Bigcommerce, owners are now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
 
 But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
@@ -51,5 +51,11 @@ Once in our dashboard, we need to add a product to the store. To do this, click 
 <p align="center">
     <img src="https://imgur.com/1Z7wAGm.png">
 </p>
-  
 
+### 3. Create BigCommerce API credentials.
+
+Now we need to generate our custom API credentials to allow us to interact with the BigCommerce Platform. Click on <b>Advanced Settings</b> on the left hand menu then <b>API Accounts</b>. You can then click on <b>Create API Account</b> and choose <b>Create V2/V3 API Token</b> to get started. Give your API a name and for the purpose of this demo we will need OAuth scope of <b>Products</b> to <b>read-only</b> though you change any other scope as well depending on how you wish the use the API. Once finished, click <b>Save</b> and your API credentials will be displayed as well as downloaded to your local machine. Don’t lose these!
+
+<p align="center">
+    <img src="https://imgur.com/o3aBXL5.png">
+</p>
