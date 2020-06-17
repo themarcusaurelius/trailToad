@@ -10,8 +10,9 @@ BigCommerce also provides a powerful API that is an incredible tool to help you 
 
 But how does one go about getting everything setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the process from creating your BigCommerce account to deploying your custom online store while learning a few tricks and new technologies along the way. 
 
+[Demo](https://trailtoad.herokuapp.com)
 
-#### Here is a breakdown of a few of the technologies we will be using in this demo as well as the individual steps we will be taking in the process:
+#### Breakdown of a few of the technologies we will be using in this demo as well as the individual steps we will be taking in the process:
 
 Technologies Used:
 React.js
