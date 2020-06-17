@@ -1,0 +1,44 @@
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.top-row {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+#button {
+  margin-left: -.1%;
+}
+
+@media (max-width: 767.98px) {
+  .details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+}
