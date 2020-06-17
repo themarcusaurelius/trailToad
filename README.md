@@ -8,7 +8,7 @@ Today, having a modern and attractive website is at the forefront of any busines
 
 But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
-So, how does one go about getting everything setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom online shop all the while learning a few tricks and new technologies along the way.
+So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom online shop all the while learning a few tricks and new technologies along the way.
 
 [Demo](https://trailtoad.herokuapp.com)
 
@@ -26,6 +26,13 @@ So, how does one go about getting everything setup and where to even begin with 
 - [Asynchronous Programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 - [React HTML Parser](https://www.npmjs.com/package/react-html-parser)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
+##### Prerequisites 
+Node.js must already be installed as well as a GitHub and Heroku account to deploy the source code. We will also be using Visual Studio Code as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
+
+
 
   
 
