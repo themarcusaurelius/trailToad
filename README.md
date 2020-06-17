@@ -1,5 +1,5 @@
-## Building and Deploying your first Node-React e-commerce site with the BigCommerce API. 
-
+### Building and Deploying your first Node-React e-commerce site with the BigCommerce API. 
+<hr/>
 Today, having a modern and attractive website is at the forefront of any business. That said, BigCommerce is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich engaging content. Owners are also now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay. 
 
 BigCommerce also provides a powerful API that is an incredible tool to help you jumpstart your own custom online shop quickly. You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life. 
