@@ -12,9 +12,7 @@ But how does one go about getting everything setup and where to even begin with 
 
 [Demo](https://trailtoad.herokuapp.com)
 
-#### Breakdown of a few of the technologies we will be using in this demo as well as the individual steps we will be taking in the process:
-
-Technologies Used:
+#### Technologies Used:
 - React.js
 - Node.js
 - Express.js
