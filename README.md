@@ -1,4 +1,4 @@
-## Deploying your first Node-React e-commerce site with BigCommerce. 
+## Deploying your first Fullstack e-commerce site with BigCommerce. 
 
 <p align="center">
     <img src="https://imgur.com/3qS6LaF.png">
