@@ -1,4 +1,4 @@
-### Deploying your first Node-React e-commerce site with the BigCommerce API. 
+## Deploying your first Node-React e-commerce site with the BigCommerce API. 
 
 <p align="center">
     <img src="https://imgur.com/3qS6LaF.png">
