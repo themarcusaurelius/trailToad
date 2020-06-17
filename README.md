@@ -13,17 +13,18 @@ But how does one go about getting everything setup and where to even begin with 
 
 #### Technologies Used:
 - [React.js](https://reactjs.org/)
-- Node.js
-- Express.js
-- BigCommerce API
-- Axios
-- Fetch
-- React Hooks
-- MDB Bootstrap
-- Heroku
-- Asynchronous Programming
-- Environment Variables
-- React HTML Parser
-- BigCommerce ‘Buy Now’ Button
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
+- [BigCommerce API](https://developer.bigcommerce.com/api-docs)
+- [BigCommerce ‘Buy Now’ Buttons](https://www.bigcommerce.com/apps/buy-buttons/)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Fetch](https://javascript.info/fetch)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [MDB Bootstrap](https://mdbootstrap.com/)
+- [Heroku](https://www.heroku.com/)
+- [Asynchronous Programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [React HTML Parser](https://www.npmjs.com/package/react-html-parser)
+
   
 
