@@ -124,7 +124,7 @@ npm install
 ```
 This will download and install all the dependencies listed above needed to run our application successfully in the server.
 
-Next, we need to create the Express.js server. In the root directory, create a file called <b>server.js</b>’ and add the following code:
+Next, we need to create the Express.js server. In the root directory, create a file called <b>server.js</b> and add the following code:
 
 ```javascript
 // Dependencies
@@ -161,4 +161,17 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.group(`Server Started On ${PORT}`));
 ```
 
+We will be importing our API routes from a separate location so we will need to create a folder called <b>routes</b> with a subfolder called <b>api</b>. Inside the <b>api</b> folder, create a file called <b>routes.js</b> and add the following code:
+
+```javascrip
+const express = require('express');
+const router = express.Router();
+const axios = require('axios');
+ 
+router.get('/product', (req,res) => {
+	res.json(‘Route is working!’)
+});
+ 
+module.exports = router;
+```
 
