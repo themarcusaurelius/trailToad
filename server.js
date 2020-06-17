@@ -7,7 +7,7 @@ const path = require('path');
 const store = require('./routes/api/store');
   
 const app = express(); 
-  
+   
 // Init Middleware
 app.use(express.json({ extended: false }));
 app.use(express.urlencoded({ extended: true }));
