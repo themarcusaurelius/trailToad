@@ -70,7 +70,7 @@ Ex: https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products
 In the <b>Headers</b> section add the following keys with their values from your credentials:
 
 ```
-    Key:				    Value:
+   Key:				    Value:
 	X-Auth-Token			{ Insert CLIENT ID here}
 	X-Auth-Client			{ Insert CLIENT SECRET here}
 
