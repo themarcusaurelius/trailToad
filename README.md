@@ -29,8 +29,8 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 - [GitHub](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-##### Prerequisites 
-Node.js must already be installed as well as a GitHub and Heroku account to deploy the source code. We will also be using Visual Studio Code as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
+#### Prerequisites 
+[Node.js](https://nodejs.org/en/) must already be installed as well as a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
 
 
