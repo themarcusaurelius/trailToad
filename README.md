@@ -83,7 +83,7 @@ Press send and you should then see a json file of the products displayed:
 
 ### 5. Set up the Express.js server in Node.js.
 
-We can now begin working on our own custom website. First, we will need to get the server up and running. To begin, create a folder called ‘BigCommerce’ and then open the folder in Visual Studio Code. Once in VSCode, create a file called ‘package.json’ in the root directory of the folder and add the following lines: 
+We can now begin working on our own custom website. First, we will need to get the server up and running. To begin, create a folder called <b>BigCommerce</b> and then open the folder in Visual Studio Code. Once in VSCode, create a file called <b>package.json</b> in the <b>Bigcommerce</b> folder and add the following code: 
 
 ```json
 {
@@ -116,7 +116,6 @@ We can now begin working on our own custom website. First, we will need to get t
     "nodemon": "^1.19.2"
   }
 }
-
 ```
 
 
