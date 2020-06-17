@@ -4,6 +4,8 @@
     <img src="https://giant.gfycat.com/SpiffyBlindCobra.gif">
 </p>
 
+[Imgur](https://imgur.com/3qS6LaF.png)
+
 # How to use:
 
 ### Get Vizion Elasticsearch Credentials
