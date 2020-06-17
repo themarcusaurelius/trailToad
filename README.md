@@ -81,4 +81,43 @@ Press send and you should then see a json file of the products displayed:
     <img src="https://imgur.com/bKcjDAx.png">
 </p>
 
+### 5. Set up the Express.js server in Node.js.
+
+We can now begin working on our own custom website. First, we will need to get the server up and running. To begin, create a folder called ‘BigCommerce’ and then open the folder in Visual Studio Code. Once in VSCode, create a file called ‘package.json’ in the root directory of the folder and add the following lines: 
+
+```json
+{
+  "name": "bigcommece",
+  "version": "1.0.0",
+  "description": "Demo App For BIGCOMMERCE",
+  "main": "server.js",
+  "engines": {
+    "node": "14.2.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agentkeepalive": "^4.0.2",
+    "axios": "^0.19.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.10",
+    "get-json": "^1.0.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
+
+```
+
+
 
