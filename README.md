@@ -215,7 +215,7 @@ It's working!
 
 ### 7. Store and secure API Credentials.
 
-In the root directory of our folder, create a <b>.env</b> file. We will use this to securely store our API credentials.  This will be very important when we push our code up to a public repository. The <b>.env<b/> file should look like this:
+In the root directory of our folder, create a <b>.env</b> file. We will use this to securely store our API credentials.  This will be very important when we push our code up to a public repository. The <b>.env</b> file should look like this:
 	
 ```css
 STORE=INSERT-STORE-CREDENTIAL-HERE
