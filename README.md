@@ -276,7 +276,7 @@ This should then display the JSON data from BigCommerce:
 
 <br>
 
-### Creating the React Front-End.
+### 9. Creating the React Front-End.
 
 Now that our Back-end is all set up we can focus on the front-end view of the demo. We will be using <b>React.js</b> for this. To get started with React, in the root directory of the project, run the command in the terminal:
 
@@ -343,3 +343,16 @@ This will launch the react app.
 </p>
 
 
+### 10. Run the front-end and back-end together.
+
+We can now run the front-end and back-end simultaneously. We are using an NPM package previously installed called <b>concurrently</b> to do this. We have also added the back-end path: http://localhost:5000 to our front-end as a proxy in order to allow communication between both. In the root directory run the following command:
+
+```
+npm run dev
+```
+
+<p align="center">
+    <img src="https://imgur.com/VBWOpCw.png">
+</p>
+
+Congratualtion! Your front-end and back-end are running and working together!
