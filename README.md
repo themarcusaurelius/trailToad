@@ -186,3 +186,15 @@ This will start the server. You will then see the following message if everythin
     <img src="https://imgur.com/JHCytj6.png">
 </p>
 
+### 6. Test the new custom route.
+
+In Postman, we will now test our custom route with the following path:
+
+http://localhost:5000/api/data/product
+
+<p align="center">
+    <img src="https://imgur.com/clR0m6M.png">
+</p>
+
+It's working!
+
