@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(formData.parse());
  
 //Define Routes
-app.use('/api/data', product);
+app.use('/api/data', store);
   
 //Serve Static assets in production
 //Configuration for Express to behave correctly in production environment
