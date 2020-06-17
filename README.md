@@ -198,12 +198,51 @@ http://localhost:5000/api/data/product
 
 It's working!
 
-### 7. Store API Credentials.
+### 7. Store and secure API Credentials.
 
 In the root directory of our folder, create a <b>.env</b> file. We will use this to securely store our API credentials.  This will be very important when we push our code up to a public repository. The <b>.env<b/> file should look like this:
 	
 ```css
-STORE=INSERT STORE CREDENTIAL HERE
-TOKEN=INSERT ACCESS TOKEN HERE
-CLIENT=INSERT CLIENT SECRET
+STORE=INSERT-STORE-CREDENTIAL-HERE
+TOKEN=INSERT-ACCESS-TOKEN HERE
+CLIENT=INSERT-CLIENT-SECRET
 ```
+
+### 8. Connecting the server to the BigCommerce API.
+
+We now need to connect our server to the BigCommerce API. To do that, replace the code in <b>routes.js</b> with: 
+
+```javascript
+require('dotenv').config();
+const express = require('express');
+const router = express.Router();
+const axios = require('axios');
+ 
+const STORE = process.env.STORE
+const TOKEN = process.env.TOKEN
+const SECRET = process.env.SECRET
+const URL = `https://api.bigcommerce.com/stores/${STORE}/v3/catalog/products?include=primary_image`
+ 
+router.get('/product', async (req,res) => {
+    try {
+        const PRODUCT = await axios.get(`${URL}`, {
+            headers: {
+                'Content-Type': [
+                    'application/json',  
+                    'charset=utf-8' 
+                ],
+                'X-Auth-Token': `${TOKEN}`,
+                'X-Auth-Client': `${SECRET}`
+            }
+        })
+ 
+        res.json({ data: PRODUCT.data })
+    } catch (err) {
+        console.log(err)
+    }
+});
+ 
+module.exports = router;
+```
+
+The code above is doing several things. It is pulling in the credentials from our <b>.env</b> and inserting them into the data using a method known as [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). We will be using [Axios](https://www.npmjs.com/package/axios) here to make an [Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) API call inside of a [Try...Catch Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) to our BigCommerce API to request the data from our products catalog. We are using the Try...Catch block in case of any errors that will then be displayed in the console. We will then return the data as JSON.
