@@ -163,7 +163,7 @@ app.listen(PORT, () => console.group(`Server Started On ${PORT}`));
 
 We will be importing our API routes from a separate location so we will need to create a folder called <b>routes</b> with a subfolder called <b>api</b>. Inside the <b>api</b> folder, create a file called <b>routes.js</b> and add the following code:
 
-```javascrip
+```javascript
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
@@ -174,4 +174,15 @@ router.get('/product', (req,res) => {
  
 module.exports = router;
 ```
+
+Now that the API routes have been added, in the terminal, run the following command:
+
+```
+npm run server
+```
+This will start the server. You will then see the following message if everything worked correctly. We are using the package [Nodemon](https://www.npmjs.com/package/nodemon) to automatically restart the node application when file changes in the directory are detected.
+
+<p align="center">
+    <img src="https://imgur.com/JHCytj6.png">
+</p>
 
