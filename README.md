@@ -11,7 +11,7 @@ But did you know that BigCommerce also provides a powerful API to help you jumps
 
 So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom online shop all the while learning a few tricks and new technologies along the way.
 
-[Demo](https://trailtoad.herokuapp.com)
+[Check Out The Demo Here!](https://trailtoad.herokuapp.com)
 
 #### Sample Of Technologies Used:
 - [React.js](https://reactjs.org/)
