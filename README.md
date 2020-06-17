@@ -95,7 +95,7 @@ Press send and you should then see a json file of the products displayed:
 
 <br>
 
-### 5. Set up the Express.js server in Node.js.
+### 5. Set up the Express.js back-end server in Node.js.
 
 We can now begin working on our own custom website. First, we will need to get the server up and running. To begin, create a folder called <b>BigCommerce</b> and then open the folder in Visual Studio Code. Once in VSCode, create a file called <b>package.json</b> in the <b>Bigcommerce</b> folder and add the following code: 
 
@@ -344,6 +344,7 @@ This will launch the react app.
     <img src="https://imgur.com/ZjQhnux.png">
 </p>
 
+<br>
 
 ### 10. Run the front-end and back-end together.
 
@@ -358,3 +359,106 @@ npm run dev
 </p>
 
 Congratualtion! Your front-end and back-end are running and working together!
+
+### 11. Pull in data from the Express.js back-end and display it in React.js.
+
+Now that we have the front-end and back-end running simultaneously, we need to pull in data from the back-end and display it on the front-end. To do that, replace the code in the <b>/client/src/app.js</b> with the following:
+
+```javascript
+import React, { useState, useEffect } from 'react';
+import ReactHtmlParser from 'react-html-parser';
+import Spinner from './components/Spinner/Spinner'
+import { MDBBtn, MDBCard, MDBCardImage, MDBCol } from "mdbreact";
+import './App.css';
+ 
+const App = () => {
+  const [data, setData] = useState([]);
+ 
+  async function fetchProduct() {
+    const product = await fetch("api/data/product", { method: 'GET' })
+    product
+      .json()
+      .then(res => setData(res.data))
+  };
+ 
+  useEffect(() => {
+    fetchProduct()
+  }, []);
+ 
+  return (
+    <div>
+      {data.data ?
+        <div className="container">
+          <MDBCol style={{ maxWidth: "75rem" }}>
+            <div className="top-row">
+              <MDBCol style={{ maxWidth: "22rem" }}>
+                <MDBCard title="S-Works Stumpjumper 29">
+                  <MDBCardImage 
+                    className="img-fluid" 
+                    id="image" 
+                    src={data.data[0].primary_image.url_standard} 
+                    waves 
+ 
+                  />
+                </MDBCard>
+              </MDBCol>
+              <div className="details">
+                <h4><b>{data.data[0].name}</b></h4>
+                <div>Specialized</div>
+                <br/>
+                <h5><b>${data.data[0].price}</b></h5>
+                <MDBBtn 
+                  gradient="aqua" 
+                  id="button" 
+                  style={{ width: "8rem" }}
+                  onClick={buyProduct}
+                  href="https://trailtoad.mybigcommerce.com/cart.php?action=buy&sku=SKU-112&source=buy_button"
+                >
+                  Buy Now
+                </MDBBtn>
+              </div>
+            </div>  
+            <div className="description">
+              <h5><b>Description:</b></h5>
+              {ReactHtmlParser(data.data[0].description)}
+            </div>
+          </MDBCol>
+        </div>
+        : <div className="spinner">
+            <Spinner/>
+          </div>
+        }
+    </div>
+    
+  );
+}
+ 
+export default App;
+```
+There is a lot happening here so I will break it down so that it can be easily digestable. 
+
+a) We are using <b>React Hooks</b> to initialize our state:
+
+```javascript
+const [data, setData] = useState([]);
+```
+
+b) We are making an <b?asynchronous<b> api call using the [fetch Api]((https://javascript.info/fetch)) to our back-end to retrieve our product data while also adding that data to our state.
+	
+```javascript
+async function fetchProduct() {
+    const product = await fetch("api/data/product", { method: 'GET' })
+    product
+      .json()
+      .then(res => setData(res.data))
+};
+```
+
+c) We then use the React Hook <b>Effect()</b> method to aquire the data when the page loads.
+
+```javascript
+useEffect(() => {
+    fetchProduct()
+}, []);
+
+```
