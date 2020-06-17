@@ -1,8 +1,7 @@
 ## Deploying your first Fullstack e-commerce site with BigCommerce. 
 
 
-				Created By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
-
+Created By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
 
 <p align="center">
     <img src="https://imgur.com/3qS6LaF.png">
