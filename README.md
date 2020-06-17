@@ -204,8 +204,8 @@ In the root directory of our folder, create a <b>.env</b> file. We will use this
 	
 ```css
 STORE=INSERT-STORE-CREDENTIAL-HERE
-TOKEN=INSERT-ACCESS-TOKEN HERE
-CLIENT=INSERT-CLIENT-SECRET
+TOKEN=INSERT-ACCESS-TOKEN-HERE
+CLIENT=INSERT-CLIENT-SECRET-HERE
 ```
 
 ### 8. Connecting the server to the BigCommerce API.
@@ -246,3 +246,13 @@ module.exports = router;
 ```
 
 The code above is doing several things. It is pulling in the credentials from our <b>.env</b> and inserting them into the data using a method known as [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). We will be using [Axios](https://www.npmjs.com/package/axios) here to make an [Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) API call inside of a [Try...Catch Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) to our BigCommerce API to request the data from our products catalog. We are using the Try...Catch block in case of any errors that will then be displayed in the console. We will then return the data as JSON.
+
+To test that the route is working and that data is being received, we can use Postman to make an API call to the same route as before:
+
+http://localhost:5000/api/data/product
+
+This should then display the JSON data from BigCommerce:
+
+<p align="center">
+    <img src="https://imgur.com/IBph9qs.png">
+</p>
