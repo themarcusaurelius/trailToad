@@ -5,7 +5,7 @@
     <img src="https://imgur.com/3qS6LaF.png">
 </p>
 
-In today's world, having a modern and attractive website is at the forefront of any successful business. [https://www.bigcommerce.com/](BigCommerce) is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With Bigcommerce, owners are now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
+In today's world, having a modern and attractive website is at the forefront of any successful business. [BigCommerce](https://www.bigcommerce.com) is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With Bigcommerce, owners are now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
 
 But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
