@@ -12,7 +12,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 [Demo](https://trailtoad.herokuapp.com)
 
-#### Technologies Used:
+#### Sample Of Technologies Used:
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
@@ -56,6 +56,8 @@ Once in our dashboard, we need to add a product to the store. To do this, click 
     <img src="https://imgur.com/1Z7wAGm.png">
 </p>
 
+<br>
+
 ### 3. Create BigCommerce API credentials.
 
 Now we need to generate our custom API credentials to allow us to interact with the BigCommerce Platform. Click on <b>Advanced Settings</b> on the left hand menu then <b>API Accounts</b>. You can then click on <b>Create API Account</b> and choose <b>Create V2/V3 API Token</b> to get started. Give your API a name and for the purpose of this demo we will need OAuth scope of <b>Products</b> to <b>read-only</b> though you change any other scope as well depending on how you wish the use the API. Once finished, click <b>Save</b> and your API credentials will be displayed as well as downloaded to your local machine. Don’t lose these!
@@ -63,6 +65,8 @@ Now we need to generate our custom API credentials to allow us to interact with 
 <p align="center">
     <img src="https://imgur.com/o3aBXL5.png">
 </p>
+
+<br>
 
 ### 4. Check that the API is working.
 
@@ -83,6 +87,8 @@ Press send and you should then see a json file of the products displayed:
 <p align="center">
     <img src="https://imgur.com/bKcjDAx.png">
 </p>
+
+<br>
 
 ### 5. Set up the Express.js server in Node.js.
 
@@ -188,6 +194,8 @@ This will start the server. You will then see the following message if everythin
     <img src="https://imgur.com/JHCytj6.png">
 </p>
 
+<br>
+
 ### 6. Test the new custom route.
 
 In Postman, we will now test our custom route with the following path:
@@ -200,6 +208,8 @@ http://localhost:5000/api/data/product
 
 It's working!
 
+<br>
+
 ### 7. Store and secure API Credentials.
 
 In the root directory of our folder, create a <b>.env</b> file. We will use this to securely store our API credentials.  This will be very important when we push our code up to a public repository. The <b>.env<b/> file should look like this:
@@ -209,6 +219,8 @@ STORE=INSERT-STORE-CREDENTIAL-HERE
 TOKEN=INSERT-ACCESS-TOKEN-HERE
 CLIENT=INSERT-CLIENT-SECRET-HERE
 ```
+
+<br>
 
 ### 8. Connecting the server to the BigCommerce API.
 
