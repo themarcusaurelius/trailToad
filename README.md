@@ -342,6 +342,7 @@ This will launch the react app.
     <img src="https://imgur.com/ZjQhnux.png">
 </p>
 
+
 <br>
 
 ### 10. Run the front-end and back-end together.
@@ -360,9 +361,12 @@ This will run <b>Express.js</b> server and <b>React.js</b> server at the same ti
 
 Congratulations! Your front-end and back-end are running and working together!
 
+
+
 <br>
 
 ### 11. Pull in data from the Express.js back-end and display it in React.js.
+
 
 Now that we have the front-end and back-end running simultaneously, we need to pull in data from the back-end and display it on the front-end. To do that, replace the code in the <b>/client/src/app.js</b> with the following:
 
@@ -437,6 +441,56 @@ const App = () => {
  
 export default App;
 ```
+
+Let's add some custom CSS. Replace the code in our <b>App.css</b> with the following:
+
+```css
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+}
+
+.top-row {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+#button {
+  margin-left: -.1%;
+}
+
+@media (max-width: 767.98px) {
+  .details{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+}
+```
+
 There is a lot happening here so I will break it down so that it can be easily digestable. 
 
 a) We are using <b>React Hooks</b> to initialize our state:
@@ -465,7 +519,7 @@ useEffect(() => {
 
 ```
 
-d) We are using a front end library called [MD Bootstrap](https://mdbootstrap.com/) that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from backend into the components. We are also conditionally rendering the page based on if there is data or not with a ternary operator. If there is no data it will display a spinner, if there is data, it will display the results.
+d) We are using a front-end library called [MD Bootstrap](https://mdbootstrap.com/) that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from back-end into the components and JSX. We are also conditionally rendering the page based on if there is data or not with a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator). If there is no data it will display a spinner, if there is data, it will display the results.
 
 ```javascript
 return (
