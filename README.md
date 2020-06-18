@@ -655,5 +655,5 @@ Deploy:
 After the application has been deployed you can then go to the link in your browser and see the magic happen!
 
 <p align="center">
-	<img src="https://imgur.com/SZOWSzG.gif">
+	<img src="https://imgur.com/3Lik9xI.gif">
  </p>
