@@ -550,15 +550,33 @@ Once this is setup, all you need to do, is add the <b>href</b> code to the custo
 
 ### 12. Submit the code to GitHub
 
-Create a repository in Github and then run the following commands in the terminal:
+Now that we have a working app let's push all the code up to GitHub and get ready to deploy a live site! Create a repository in Github and then run the following commands in the terminal:
 
 ```git
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/{githubusername}/{reponame}.git
+git remote add origin https://github.com/{yourgithubusername}/{yourreponame}.git
 git push -u origin master
 ```
+
+<br>
+
+### 13. Deploy the live site to Heroku.
+
+We will be using ([Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use
+
+a) Log into Heroku
+b) Create an app
+c) Connect the GitHub repository to the app
+d) Deploy
+
+<p align="center">
+    <img src="https://imgur.com/Jx6PoMk.png">
+</p>
+
+After the application has been posting you can then go to the link in your browser and the page will load!
+
 
 
 
