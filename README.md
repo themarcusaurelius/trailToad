@@ -6,11 +6,17 @@ By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
     <img src="https://imgur.com/3qS6LaF.png">
 </p>
 
-In today's world, having a modern and attractive e-commerce site is at the forefront of any successful business. [BigCommerce](https://www.bigcommerce.com) is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With Bigcommerce, owners are able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
+In today's world, having a modern and attractive e-commerce site is at the forefront of any successful business. [BigCommerce](https://www.bigcommerce.com) is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With BigCommerce, owners are able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
 
-But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? Build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
+But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? Build out a 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
-So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this demo will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom product page that can add the product to the shopping cart and redirect users to the checkout page. All the while learning a few tricks and new technologies along the way.
+So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this demo will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom product page. 
+
+### Purpose of this demo:
+
+#### Users will be able to:
+- View a custom product page generated from the BigCommerce API.
+- Add the product to their shopping cart and redirect users to the checkout page.
 
 [Check Out The Demo Here!](https://trailtoad.herokuapp.com)
 
