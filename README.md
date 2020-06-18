@@ -18,6 +18,12 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 [Check Out The Live Demo Here!](https://trailtoad.herokuapp.com)
 
+### Application Flow
+
+<p align="center">
+    <img src="https://imgur.com/W30elK0.png">
+</p>
+
 ### Sample Of Technologies Used:
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
