@@ -201,7 +201,7 @@ This will start the server. You will then see the following message if everythin
 
 ### 6. Test the new custom route.
 
-In Postman, we will now test our custom route with the following path:
+In Postman, we can now test our custom route with the following path:
 
 http://localhost:5000/api/data/product
 
