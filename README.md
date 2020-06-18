@@ -636,21 +636,21 @@ git push -u origin master
 
 ### 13. Deploy the live site to Heroku.
 
-We will be using [Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use. Just log into in, create an app, and do the following:
+We will be using [Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use. Just log in, create an app, and the following steps:
 
-Connect the GitHub repository to the app:
+a) Connect the GitHub repository to the app:
 
 <p align="center">
     <img src="https://imgur.com/9dCgXWj.png">
 </p>
 
-Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production:
+b) Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production:
 
 <p align="center">
     <img src="https://imgur.com/wulVNpX.png">
 </p>
 
-Deploy the application: 
+c) Deploy the application: 
 
 <p align="center">
     <img src="https://imgur.com/mc7I9kz.png">
@@ -664,4 +664,7 @@ After the application has been deployed you can then open the link in your brows
  
  ## In Conclusion
  
- The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your online store. Hopefully, this demo gives 
+The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your custom online store that can easily integrate into the existing BigCommerce framework. 
+
+Check out the documentation [here](https://developer.bigcommerce.com/api-docs) to find out more about the full API capabilities BigCommerce has to offer.  
+ 
