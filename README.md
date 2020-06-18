@@ -172,7 +172,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.group(`Server Started On ${PORT}`));
 ```
 
-We will be importing our API routes from a separate location so we will need to create a folder called <b>routes</b> with a subfolder called <b>api</b>. Inside the <b>api</b> folder, create a file called <b>routes.js</b> and add the following code:
+As you can see, we will be importing our API routes from a separate location so we will need to create a folder called <b>routes</b> with a subfolder called <b>api</b>. Inside the <b>api</b> folder, create a file called <b>routes.js</b> and add the following code:
 
 ```javascript
 const express = require('express');
