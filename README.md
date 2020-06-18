@@ -662,9 +662,9 @@ After the application has been deployed you can then open the link in your brows
 	<img src="https://imgur.com/3Lik9xI.gif">
  </p>
  
- ## In Conclusion
+In Conclusion...
  
 The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your own custom online store that can seamlessly integrate into the existing BigCommerce infrastructure. 
 
-If this demo peaked youre interest, check out the documentation [here](https://developer.bigcommerce.com/api-docs) to find out more about the full API capabilities BigCommerce has to offer!  
+If this demo peaked you're interest, check out the documentation [here](https://developer.bigcommerce.com/api-docs) to find out more about the full API capabilities BigCommerce has to offer!  
  
