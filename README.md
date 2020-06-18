@@ -612,7 +612,7 @@ package-lock.json
 .env
 ```
 
-Find the <b>client/src/.gitignore and add following:
+Find the <b>client/src/.gitignore</b> and add following:
 	
 ```
 package-lock.json
