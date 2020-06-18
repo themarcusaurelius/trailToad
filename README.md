@@ -604,6 +604,20 @@ Once this is setup, all you need to do, is add the <b>href</b> code to the custo
 
 ### 12. Submit the code to GitHub
 
+First, we need to make sure our API keys are not pushed up in our public repo. In the root directory, add a <b>.gitignore</b> file and add the following:
+
+```
+node_modules
+package-lock.json
+.env
+```
+
+Find the <b>client/src/.gitignore and add following:
+	
+```
+package-lock.json
+```
+
 Now that we have a working app let's push all the code up to GitHub and get ready to deploy a live site! Create a repository in Github and then run the following commands in the terminal:
 
 ```git
@@ -620,10 +634,15 @@ git push -u origin master
 
 We will be using ([Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use
 
-- Log into Heroku
-- Create an app
-- Connect the GitHub repository to the app
-- Add Credendials
+Log into Heroku and create an app.
+
+Connect the GitHub repository to the app:
+
+<p align="center">
+    <img src="https://imgur.com/9dCgXWj.png">
+</p>
+
+Add Credendials:
 
 Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production.
 
@@ -631,13 +650,13 @@ Add the same credentials as your <b>.env</b> file from earlier to have the crede
     <img src="https://imgur.com/wulVNpX.png">
 </p>
 
-- Deploy
+Deploy: 
 
 <p align="center">
-    <img src="https://imgur.com/Jx6PoMk.png">
+    <img src="https://imgur.com/mc7I9kz.png">
 </p>
 
-After the application has been posting you can then go to the link in your browser and the page will load!
+After the application has been deployed you can then go to the link in your browser and see the magic happen!
 
 
 
