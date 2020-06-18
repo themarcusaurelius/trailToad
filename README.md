@@ -1,4 +1,4 @@
-## Deploying Your First Fullstack E-Commerce Store With BigCommerce. 
+## Deploying Your First Fullstack E-Commerce Site With BigCommerce. 
 
 By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
 
