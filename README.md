@@ -1,4 +1,4 @@
-## Deploying Your First Product Page With BigCommerce. 
+## Deploying Your First E-Commerce Site With BigCommerce. 
 
 By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
 
