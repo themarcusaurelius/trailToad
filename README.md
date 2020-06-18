@@ -80,7 +80,7 @@ Now we need to generate our custom API credentials to allow us to interact with 
 
 Check that the API is working. Will be using [Postman](https://www.postman.com/) for this. Postman is a collaboration platform for API development. In Postman, use the <b>API Path</b> from your credentials followed by the path <b>/catalog/products</b>
 
-Ex: https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products
+Ex: [https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products](https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products)
 
 In the <b>Headers</b> section add the following keys with their values from your credentials:
 
@@ -207,7 +207,7 @@ This will start the server. You will then see the following message if everythin
 
 In Postman, we can now test our custom route with the following path:
 
-http://localhost:5000/api/data/product
+[http://localhost:5000/api/data/product](http://localhost:5000/api/data/product)
 
 <p align="center">
     <img src="https://imgur.com/clR0m6M.png">
@@ -650,14 +650,18 @@ Add the same credentials as your <b>.env</b> file from earlier to have the crede
     <img src="https://imgur.com/wulVNpX.png">
 </p>
 
-Deploy: 
+Deploy the application: 
 
 <p align="center">
     <img src="https://imgur.com/mc7I9kz.png">
 </p>
 
-After the application has been deployed you can then go to the link in your browser and see the magic happen!
+After the application has been deployed you can then open the link in your browser and see the magic happen!
 
 <p align="center">
 	<img src="https://imgur.com/3Lik9xI.gif">
  </p>
+ 
+ ## In Conclusion
+ 
+ The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your online store. 
