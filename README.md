@@ -54,7 +54,7 @@ Click on the free trial button and follow the steps for onboarding. Once your St
 
 ### 2. Add a product.
 
-Once in our dashboard, we need to add a product to the store. To do this, click on the <b>Products</b> tab on the left hand menu and then click on <b>Add</b>. Fill out the required information of any product you would like to add. At a minimum, will need to at least add details regarding Product Name, Brand, Pricing, Product Description, and an Image. Once all the details have been added, click <b>Save</b>.
+Once in our dashboard, we need to add a product to the store. To do this, click on the <b>Products</b> tab on the left hand menu and then click on <b>Add</b>. Fill out the required information of any product you would like to add. At a minimum, we will need to at least add details regarding <b>Product Name, Brand, Pricing, Product Description, and an Image</b>. Once all the details have been added, click <b>Save</b>.
 
 <p align="center">
     <img src="https://imgur.com/1Z7wAGm.png">
