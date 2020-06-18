@@ -74,7 +74,7 @@ Now we need to generate our custom API credentials to allow us to interact with 
 
 ### 4. Check that the API is working.
 
-Check that the API is working. Will be using [Postman](https://www.postman.com/) for this. Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster. In Postman, use the <b>API Path</b> from your credentials followed by the path <b>/catalog/products</b>
+Check that the API is working. Will be using [Postman](https://www.postman.com/) for this. Postman is a collaboration platform for API development. In Postman, use the <b>API Path</b> from your credentials followed by the path <b>/catalog/products</b>
 
 Ex: https://api.bigcommerce.com/stores/b7sed14fe5/v3/catalog/products
 
