@@ -64,7 +64,7 @@ Once in our dashboard, we need to add a product to the store. To do this, click 
 
 ### 3. Create BigCommerce API credentials.
 
-Now we need to generate our custom API credentials to allow us to interact with the BigCommerce Platform. Click on <b>Advanced Settings</b> on the left hand menu then <b>API Accounts</b>. You can then click on <b>Create API Account</b> and choose <b>Create V2/V3 API Token</b> to get started. Give your API a name and for the purpose of this demo we will need OAuth scope of <b>Products</b> to <b>read-only</b> though you change any other scope as well depending on how you wish the use the API. Once finished, click <b>Save</b> and your API credentials will be displayed as well as downloaded to your local machine. Don’t lose these!
+Now we need to generate our custom API credentials to allow us to interact with the BigCommerce Platform. Click on <b>Advanced Settings</b> on the left hand menu then <b>API Accounts</b>. You can then click on <b>Create API Account</b> and choose <b>Create V2/V3 API Token</b> to get started. Give your API a name. For the purpose of this demo we will need OAuth scope of <b>Products</b> to <b>read-only</b> though you change any other scope as well depending on how you wish to use the API. Once finished, click <b>Save</b> and your API credentials will be displayed as well as downloaded to your local machine. Don’t lose these!
 
 <p align="center">
     <img src="https://imgur.com/o3aBXL5.png">
