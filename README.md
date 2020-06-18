@@ -18,7 +18,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 [Check Out The Live Demo Here!](https://trailtoad.herokuapp.com)
 
-### Application Flow
+### Application Flow:
 
 <p align="center">
     <img src="https://imgur.com/W30elK0.png">
