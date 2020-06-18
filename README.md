@@ -374,7 +374,7 @@ Congratulations! Your front-end and back-end are running and working together!
 
 Now that we have the front-end and back-end running simultaneously, we need to pull in data from the back-end and display it on the front-end. To do that, replace the code in the <b>/client/src/app.js</b> with the following:
 
-```jsx
+```javascript
 import React, { useState, useEffect } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import Spinner from './components/Spinner/Spinner'
@@ -525,7 +525,7 @@ useEffect(() => {
 
 d) We are using a front-end library called [MD Bootstrap](https://mdbootstrap.com/) that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from back-end into the components and JSX. We are also conditionally rendering the page based on if there is data or not with a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator). If there is no data it will display a spinner, if there is data, it will display the results.
 
-```jsx
+```javascript
 return (
     <div>
       {data.data ?
@@ -586,7 +586,7 @@ e) You may have noticed that the <b>description</b> field in the json file has H
 
 f) [BigCommerce ‘Buy Now’ Buttons](https://www.bigcommerce.com/apps/buy-buttons/) BigCommerce also has a really cool feature that makes adding products to a cart and checking out a breeze. It is called a <b>Buy Button</b> and can be found here:
 	
-https://www.bigcommerce.com/apps/buy-buttons/
+[https://www.bigcommerce.com/apps/buy-buttons/](https://www.bigcommerce.com/apps/buy-buttons/)
 
 <p align="center">
     <img src="https://imgur.com/6hlIGrp.png">
