@@ -125,7 +125,6 @@ We can now begin working on our own custom website. First, we will need to get t
     "express": "^4.17.1",
     "express-form-data": "^2.0.10",
     "get-json": "^1.0.1",
-    "node-fetch": "^2.6.0",
     "nodemon": "^1.19.2"
   }
 }
