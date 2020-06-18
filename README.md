@@ -600,7 +600,7 @@ f) [BigCommerce ‘Buy Now’ Buttons](https://www.bigcommerce.com/apps/buy-butt
     <img src="https://imgur.com/6hlIGrp.png">
 </p>
 
-Once this is setup, all you need to do, is add the <b>href</b> code to the custom button. Clicking on the button will then automatically add it to the shopping cart and will redirect users to the checkout page in BigCommerce,
+Once this is setup, all you need to do, is add the <b>href</b> code to the custom button. Clicking on the button will then automatically add the product to the shopping cart and will redirect users to the checkout page in BigCommerce.
 
 ```javascript
 <MDBBtn 
