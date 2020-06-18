@@ -632,9 +632,7 @@ git push -u origin master
 
 ### 13. Deploy the live site to Heroku.
 
-We will be using ([Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use
-
-Log into Heroku and create an app.
+We will be using ([Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use. Just log into in, create an app, and do the following:
 
 Connect the GitHub repository to the app:
 
@@ -655,7 +653,4 @@ Deploy:
 </p>
 
 After the application has been deployed you can then go to the link in your browser and see the magic happen!
-
-
-
 
