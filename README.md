@@ -525,7 +525,7 @@ useEffect(() => {
 
 d) We are using a front-end library called [MD Bootstrap](https://mdbootstrap.com/) that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from back-end into the components and JSX. We are also conditionally rendering the page based on if there is data or not with a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator). If there is no data it will display a spinner, if there is data, it will display the results.
 
-```javascript
+```jsx
 return (
     <div>
       {data.data ?
@@ -664,4 +664,4 @@ After the application has been deployed you can then open the link in your brows
  
  ## In Conclusion
  
- The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your online store. 
+ The BigCommerce API is an easy-to-use yet powerful resource to help quickly launch your online store. Hopefully, this demo gives 
