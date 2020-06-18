@@ -359,6 +359,8 @@ npm run dev
 
 Congratualtion! Your front-end and back-end are running and working together!
 
+<br>
+
 ### 11. Pull in data from the Express.js back-end and display it in React.js.
 
 Now that we have the front-end and back-end running simultaneously, we need to pull in data from the back-end and display it on the front-end. To do that, replace the code in the <b>/client/src/app.js</b> with the following:
