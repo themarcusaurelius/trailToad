@@ -43,7 +43,7 @@ So, how does one go about getting a custom e-commerce shop setup with BigCommerc
 - [Postman](https://www.postman.com/)
 - [Git Bash](https://git-scm.com/downloads)
 
-#### Prerequisites:
+### Prerequisites:
 [Node.js](https://nodejs.org/en/), [Postman](https://www.postman.com/), and [Git Bash](https://git-scm.com/downloads) must already be installed as well as having a [GitHub](https://github.com/) and [Heroku](https://www.heroku.com/) account to deploy the source code. We will also be using [Visual Studio Code](https://code.visualstudio.com/) as the code editor but feel free to use whichever editor you are most comfortable with. Use the links provided above for any installations or account creations.
 
 <hr>
