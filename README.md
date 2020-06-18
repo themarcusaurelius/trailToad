@@ -46,7 +46,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 The first step is creating an account. For this, we will be using the free 15 day trial account. Create your account by going to the following link: 
 
-https://www.bigcommerce.com/essentials 
+[https://www.bigcommerce.com/essentials ](https://www.bigcommerce.com/essentials )
 
 Click on the free trial button and follow the steps for onboarding. Once your Store is created you will then be redirected to your online dashboard. 
 
