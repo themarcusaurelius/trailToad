@@ -10,7 +10,7 @@ In today's world, having a modern and attractive e-commerce site is at the foref
 
 But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? Build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
-So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom online shop all the while learning a few tricks and new technologies along the way.
+So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this demo will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom product page that can add the product to the shopping cart and redirect users to the checkout page. All the while learning a few tricks and new technologies along the way.
 
 [Check Out The Demo Here!](https://trailtoad.herokuapp.com)
 
