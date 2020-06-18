@@ -654,3 +654,6 @@ Deploy:
 
 After the application has been deployed you can then go to the link in your browser and see the magic happen!
 
+<p align="center">
+    <img src="https://giant.gfycat.com/grizzleddeadlyhochstettersfrog.gif">
+  </p>
