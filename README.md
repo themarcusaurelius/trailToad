@@ -86,7 +86,7 @@ In the <b>Headers</b> section add the following keys with their values from your
 	X-Auth-Client			{ Insert CLIENT SECRET here}
 
 ```
-Press send and you should then see a json file of the products displayed:
+Press send and you should then see a JSON file of the products displayed:
 
 <p align="center">
     <img src="https://imgur.com/bKcjDAx.png">
