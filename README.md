@@ -278,7 +278,7 @@ This should then display the JSON data from BigCommerce:
 
 ### 9. Creating the React Front-End.
 
-Now that our Back-end is all set up we can focus on the front-end view of the demo. We will be using <b>React.js</b> for this. To get started with React, in the root directory of the project, run the command in the terminal:
+Now that our Back-end is set up we can focus on the front-end view of the demo. We will be using <b>React.js</b> for this. To get started with React, in the root directory of the project, run the command in the terminal:
 
 ```
 npx create-react-app client
