@@ -567,10 +567,18 @@ git push -u origin master
 
 We will be using ([Heroku](https://www.heroku.com/) to host our live online store. It is free and easy-to-use
 
-a) Log into Heroku
-b) Create an app
-c) Connect the GitHub repository to the app
-d) Deploy
+- Log into Heroku
+- Create an app
+- Connect the GitHub repository to the app
+- Add Credendials
+
+Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production.
+
+<p align="center">
+    <img src="https://imgur.com/wulVNpX.png">
+</p>
+
+- Deploy
 
 <p align="center">
     <img src="https://imgur.com/Jx6PoMk.png">
