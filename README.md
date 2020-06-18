@@ -270,7 +270,7 @@ The code above is doing several things. It is pulling in the credentials from ou
 
 To test that the route is working and that data is being received, we can use Postman to make an API call to the same route as before:
 
-http://localhost:5000/api/data/product
+[http://localhost:5000/api/data/product](http://localhost:5000/api/data/product)
 
 This should then display the JSON data from BigCommerce:
 
@@ -374,7 +374,7 @@ Congratulations! Your front-end and back-end are running and working together!
 
 Now that we have the front-end and back-end running simultaneously, we need to pull in data from the back-end and display it on the front-end. To do that, replace the code in the <b>/client/src/app.js</b> with the following:
 
-```javascript
+```jsx
 import React, { useState, useEffect } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import Spinner from './components/Spinner/Spinner'
