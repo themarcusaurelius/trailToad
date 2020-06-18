@@ -346,11 +346,13 @@ This will launch the react app.
 
 ### 10. Run the front-end and back-end together.
 
-We can now run the front-end and back-end simultaneously. We are using an NPM package previously installed called <b>concurrently</b> to do this. We have also added the back-end path: http://localhost:5000 to our front-end as a proxy in order to allow communication between both. In the root directory run the following command:
+We can now run the front-end and back-end simultaneously. We are using an NPM package called <b>concurrently</b> to do this. We have also added the back-end path: http://localhost:5000 to our front-end as a proxy in order to allow communication between both servers. In the root directory run the following command:
 
 ```
 npm run dev
 ```
+
+This will run <b>Express.js</b> server and <b>React.js</b> server at the same time.
 
 <p align="center">
     <img src="https://imgur.com/VBWOpCw.png">
