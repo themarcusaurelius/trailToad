@@ -48,6 +48,8 @@ So, how does one go about getting a custom e-commerce shop setup with BigCommerc
 
 <hr>
 
+Let's get started!
+
 ### 1. Create a BigCommerce account.
 
 The first step is creating an account. For this, we will be using the free 15 day trial account. Create your account by going to the following link: 
