@@ -10,7 +10,7 @@ In today's world, having a modern and attractive e-commerce site is at the foref
 
 But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? Build out a 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
-So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this demo will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom product page. 
+So, how does one go about getting a custom e-commerce shop setup with BigCommerce and where to even begin with all of this? Luckily, for you, this demo will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom product page. 
 
 ### Purpose of this demo:
 - View a custom product page generated from the BigCommerce API.
