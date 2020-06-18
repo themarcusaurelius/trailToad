@@ -8,7 +8,7 @@ By: [Mark Mayfield](https://marksreactportfolio.herokuapp.com/)
 
 In today's world, having a modern and attractive website is at the forefront of any successful business. [BigCommerce](https://www.bigcommerce.com) is revolutionizing the way retailers can run their online shopping experiences to allow for more provoking user interactions full of rich and engaging content. With Bigcommerce, owners are now able to launch a full product line in minutes and can make timely updates to any aspect of their e-commerce site without delay.
 
-But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? You can build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
+But did you know that BigCommerce also provides a powerful API to help you jumpstart your own custom online shop quickly? Build out your 100% taylor-made site using the tech-stacks of your choosing and easily tap into BigCommerce’s resources to bring everything to life.
 
 So, how does one go about getting a custom e-commerce shop setup and where to even begin with all of this? Luckily, for you, this tutorial will guide you through the step-by-step process from creating your BigCommerce account to deploying your custom online shop all the while learning a few tricks and new technologies along the way.
 
