@@ -18,7 +18,7 @@ So, how does one go about getting a custom e-commerce shop setup and where to ev
 
 [Check Out The Live Demo Here!](https://trailtoad.herokuapp.com)
 
-#### Sample Of Technologies Used:
+### Sample Of Technologies Used:
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Express.js](https://expressjs.com/)
