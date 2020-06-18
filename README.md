@@ -284,7 +284,7 @@ Now that our Back-end is set up we can focus on the front-end view of the demo. 
 npx create-react-app client
 ```
 
-This will create our <b>React.js</b> application in a folder called <b>client</b>. This might take awhile so this would be a good time to take a break. Once everything has been installed, we need to replace the code the newly added <b>client/package.json</b> with the following JSON:
+This will create our <b>React.js</b> application in a folder called <b>client</b>. This could take awhile so this might be a good time to take a break and stretch your legs. Once everything has been installed, we need to replace the code in the newly added <b>client/package.json</b> with the following JSON:
 
 ```json
 "name": "client",
