@@ -262,7 +262,7 @@ router.get('/product', async (req,res) => {
 module.exports = router;
 ```
 
-The code above is doing several things. It is pulling in the credentials from our <b>.env</b> and inserting them into the data using a method known as [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). We will be using [Axios](https://www.npmjs.com/package/axios) here to make an [Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) API call inside of a [Try...Catch Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) to our BigCommerce API requesting the data from our products catalog. We are using the Try...Catch block in case of any errors that will then be displayed in the console. The API call will then return the data as JSON.
+The code above is doing several things. It is pulling in the credentials from our <b>.env</b> and inserting them into the data using a method known as [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals). We will be using [Axios](https://www.npmjs.com/package/axios) here to make an [Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await) API call inside of a [Try...Catch Block](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) to our BigCommerce API. The function is requesting the data from our BigCommerce products catalog. We are using the Try...Catch block in case of any errors that will then be displayed in the console. The API call will then return the data as JSON.
 
 To test that the route is working and that data is being received, we can use Postman to make an API call to the same route as before:
 
@@ -356,7 +356,7 @@ npm run dev
     <img src="https://imgur.com/VBWOpCw.png">
 </p>
 
-Congratualtion! Your front-end and back-end are running and working together!
+Congratulations! Your front-end and back-end are running and working together!
 
 <br>
 
