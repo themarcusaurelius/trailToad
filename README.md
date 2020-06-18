@@ -213,7 +213,7 @@ It's working!
 
 <br>
 
-### 7. Store and secure API Credentials.
+### 7. Secure and store the BigCommerce API Credentials.
 
 In the root directory of our folder, create a <b>.env</b> file. We will use this to securely store our API credentials.  This will be very important when we push our code up to a public repository. The <b>.env</b> file should look like this:
 	
@@ -225,7 +225,7 @@ CLIENT=INSERT-CLIENT-SECRET-HERE
 
 <br>
 
-### 8. Connecting the server to the BigCommerce API.
+### 8. Connect the back-end server to the BigCommerce API.
 
 We now need to connect our server to the BigCommerce API. To do that, replace the code in <b>routes.js</b> with: 
 
