@@ -331,7 +331,7 @@ In the <b>client</b> folder, run the command
 ```
 npm install
 ```
-This will install all the dependencies necessary on the Front-End. Once done, you can then run:
+This will install all the dependencies necessary on the front-end. Once done, you can then run:
 
 ```
 npm start
@@ -346,7 +346,7 @@ This will launch the react app.
 
 ### 10. Run the front-end and back-end together.
 
-We can now run the front-end and back-end simultaneously. We are using an NPM package called <b>concurrently</b> to do this. We have also added the back-end path: http://localhost:5000 to our front-end as a proxy in order to allow communication between both servers. In the root directory run the following command:
+We can now run the front-end and back-end simultaneously. We are using an NPM package called <b>concurrently</b> to do this. We have also added the back-end path: http://localhost:5000 to our front-end as a proxy in the <b>client/package.json</b> in order to allow communication between both servers. In the root directory run the following command:
 
 ```
 npm run dev
