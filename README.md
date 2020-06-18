@@ -642,9 +642,7 @@ Connect the GitHub repository to the app:
     <img src="https://imgur.com/9dCgXWj.png">
 </p>
 
-Add Credendials:
-
-Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production.
+Add the same credentials as your <b>.env</b> file from earlier to have the credentials available in production:
 
 <p align="center">
     <img src="https://imgur.com/wulVNpX.png">
