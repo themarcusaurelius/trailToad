@@ -534,8 +534,7 @@ return (
                     className="img-fluid" 
                     id="image" 
                     src={data.data[0].primary_image.url_standard} 
-                    waves 
- 
+                    waves
                   />
                 </MDBCard>
               </MDBCol>
