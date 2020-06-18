@@ -670,6 +670,7 @@ After the application has been deployed you can then open the link in your brows
 	<img src="https://imgur.com/3Lik9xI.gif">
  </p>
 
+<br>
 <hr>
 
 <b>In Conclusion...</b>
