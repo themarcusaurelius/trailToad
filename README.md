@@ -525,10 +525,26 @@ e) You may have noticed that the <b>description</b> field in the json file has H
 </div>
 ```
 
-f) [BigCommerce ‘Buy Now’ Buttons](https://www.bigcommerce.com/apps/buy-buttons/) BigCommerce also has a really cool feature that makes adding products to a cart and checking out a breeze. It is called a <b>Buy Button<b/> and can be found here:
+f) [BigCommerce ‘Buy Now’ Buttons](https://www.bigcommerce.com/apps/buy-buttons/) BigCommerce also has a really cool feature that makes adding products to a cart and checking out a breeze. It is called a <b>Buy Button</b> and can be found here:
 	
 https://www.bigcommerce.com/apps/buy-buttons/
 
 <p align="center">
     <img src="https://imgur.com/6hlIGrp.png">
 </p>
+
+Once this is setup, all you need to do, is add the <b>href</b> code to the custom button.
+
+```javascript
+<MDBBtn 
+  gradient="aqua" 
+  id="button" 
+  style={{ width: "8rem" }}
+  onClick={buyProduct}
+  href="https://trailtoad.mybigcommerce.com/cart.php?action=buy&sku=SKU-112&source=buy_button"
+>
+  Buy Now
+</MDBBtn>
+```
+
+
