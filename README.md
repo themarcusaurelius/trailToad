@@ -443,7 +443,7 @@ a) We are using <b>React Hooks</b> to initialize our state:
 const [data, setData] = useState([]);
 ```
 
-b) We are making an <b?asynchronous<b> api call using the [fetch Api]((https://javascript.info/fetch)) to our back-end to retrieve our product data while also adding that data to our state.
+b) We are making an <b>asynchronous</b> api call using the [Fetch Api]((https://javascript.info/fetch)) to our back-end to retrieve our product data while also adding that data to our state.
 	
 ```javascript
 async function fetchProduct() {
@@ -461,4 +461,54 @@ useEffect(() => {
     fetchProduct()
 }, []);
 
+```
+
+d) We are using a front end library called [MD Bootstrap]() that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from backend into the components. We are also conditionally rendering the page based on if there is data or not with a ternary operator. If there is no data it will display a spinner, if there is data, it will display the results.
+
+```javascript
+return (
+    <div>
+      {data.data ?
+        <div className="container">
+          <MDBCol style={{ maxWidth: "75rem" }}>
+            <div className="top-row">
+              <MDBCol style={{ maxWidth: "22rem" }}>
+                <MDBCard title="S-Works Stumpjumper 29">
+                  <MDBCardImage 
+                    className="img-fluid" 
+                    id="image" 
+                    src={data.data[0].primary_image.url_standard} 
+                    waves 
+ 
+                  />
+                </MDBCard>
+              </MDBCol>
+              <div className="details">
+                <h4><b>{data.data[0].name}</b></h4>
+                <div>Specialized</div>
+                <br/>
+                <h5><b>${data.data[0].price}</b></h5>
+                <MDBBtn 
+                  gradient="aqua" 
+                  id="button" 
+                  style={{ width: "8rem" }}
+                  onClick={buyProduct}
+                  href="https://trailtoad.mybigcommerce.com/cart.php?action=buy&sku=SKU-112&source=buy_button"
+                >
+                  Buy Now
+                </MDBBtn>
+              </div>
+            </div>  
+            <div className="description">
+              <h5><b>Description:</b></h5>
+              {ReactHtmlParser(data.data[0].description)}
+            </div>
+          </MDBCol>
+        </div>
+        : <div className="spinner">
+            <Spinner/>
+          </div>
+        }
+    </div> 
+  );
 ```
