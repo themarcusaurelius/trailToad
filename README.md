@@ -534,7 +534,7 @@ https://www.bigcommerce.com/apps/buy-buttons/
     <img src="https://imgur.com/6hlIGrp.png">
 </p>
 
-Once this is setup, all you need to do, is add the <b>href</b> code to the custom button.
+Once this is setup, all you need to do, is add the <b>href</b> code to the custom button. Clicking on the button will then automatically add it to the shopping cart and will redirect users to the checkout page in BigCommerce,
 
 ```javascript
 <MDBBtn 
@@ -547,5 +547,18 @@ Once this is setup, all you need to do, is add the <b>href</b> code to the custo
   Buy Now
 </MDBBtn>
 ```
+
+### 12. Submit the code to GitHub
+
+Create a repository in Github and then run the following commands in the terminal:
+
+```git
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/{githubusername}/{reponame}.git
+git push -u origin master
+```
+
 
 
