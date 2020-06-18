@@ -614,7 +614,7 @@ Once this is setup, all you need to do, is add the <b>href</b> code to the custo
 </MDBBtn>
 ```
 
-### 12. Submit the code to GitHub
+### 12. Submit the code to GitHub.
 
 First, we need to make sure our API keys are not pushed up in our public repo. In the root directory, add a <b>.gitignore</b> file and add the following:
 
