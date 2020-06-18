@@ -139,7 +139,7 @@ npm install
 ```
 This will download and install all the dependencies listed above needed to run our application successfully in the server.
 
-Next, we need to create the Express.js server. In the root directory, create a file called <b>server.js</b> and add the following code:
+Next, we need to create the <b>Express.js</b> server. In the root directory, create a file called <b>server.js</b> and add the following code:
 
 ```javascript
 // Dependencies
