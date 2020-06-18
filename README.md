@@ -443,7 +443,7 @@ a) We are using <b>React Hooks</b> to initialize our state:
 const [data, setData] = useState([]);
 ```
 
-b) We are making an <b>asynchronous</b> api call using the [Fetch Api]((https://javascript.info/fetch)) to our back-end to retrieve our product data while also adding that data to our state.
+b) We are making an <b>asynchronous</b> api call using the [Fetch Api](https://javascript.info/fetch) to our back-end to retrieve our product data while also adding that data to our state.
 	
 ```javascript
 async function fetchProduct() {
@@ -454,7 +454,7 @@ async function fetchProduct() {
 };
 ```
 
-c) We then use the React Hook <b>Effect()</b> method to aquire the data when the page loads.
+c) We then use the React Hook <b>useEffect()</b> method to load the data when the page loads.
 
 ```javascript
 useEffect(() => {
@@ -463,7 +463,7 @@ useEffect(() => {
 
 ```
 
-d) We are using a front end library called [MD Bootstrap]() that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from backend into the components. We are also conditionally rendering the page based on if there is data or not with a ternary operator. If there is no data it will display a spinner, if there is data, it will display the results.
+d) We are using a front end library called [MD Bootstrap](https://mdbootstrap.com/) that has many great custom components specifically built for e-commerce. You can see here that we are displaying the data from backend into the components. We are also conditionally rendering the page based on if there is data or not with a ternary operator. If there is no data it will display a spinner, if there is data, it will display the results.
 
 ```javascript
 return (
@@ -514,4 +514,14 @@ return (
 }
 
 export default App;
+```
+
+e) You may have noticed that the <b>description</b> field in the json file has HTML tags already embedded. To display the description using the HTML Tags, we are using a NPM package called [ReactHtmlParser](https://www.npmjs.com/package/react-html-parser) which will parse the embedded HTML tags.
+
+```javascript
+<div className="description">
+              <h5><b>Description:</b></h5>
+              {ReactHtmlParser(data.data[0].description)}
+            </div>
+
 ```
